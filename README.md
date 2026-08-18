@@ -165,6 +165,8 @@ Developed an interactive Power BI dashboard covering:
 
 Power BI · DAX · Power Query · SQL / MySQL · Excel · Data Modeling
 
+---
+
 ## 👩‍💻 My Role – Data Analyst
 
 As a Data Analyst, I worked on this project to transform raw e-commerce transaction data into meaningful business insights. My responsibilities included:
@@ -204,7 +206,7 @@ As a Data Analyst, I worked on this project to transform raw e-commerce transact
 
 **Skills:**
 
-Power BI | SQL | Excel | Python | DAX | Data Analysis
+Power BI | SQL | Excel | DAX | Data Analysis
 
 ---
 
