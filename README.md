@@ -1,16 +1,16 @@
-# 🛒 E-Commerce Sales & Customer Behavior Analysis
+## 🛒 E-Commerce Sales & Customer Behavior Analysis
 
 Analyzing e-commerce sales, customer behavior, product performance, regional trends, and profitability using SQL and Power BI to generate actionable business insights.
 
 ---
 
-# 📌 Project Overview
+## 📌 Project Overview
 
 This project analyzes e-commerce transaction data to understand sales performance, profitability, customer behavior, product performance, and regional trends. The objective is to identify high-performing products and customers, evaluate category and regional performance, analyze sales trends, and support data-driven business decisions.
 
 --- 
 
-# 📑 Table of Contents
+## 📑 Table of Contents
 - Dataset Summary
 - Data Cleaning & Preparation
 - Business Analysis
@@ -26,7 +26,7 @@ This project analyzes e-commerce transaction data to understand sales performanc
 
 ---
 
-# 🗂️ Dataset Summary
+## 🗂️ Dataset Summary
 
 The dataset contains e-commerce transaction information including:
 
@@ -44,7 +44,7 @@ The dataset contains e-commerce transaction information including:
 
 ---
 
-# 🧹 Data Cleaning & Preparation
+## 🧹 Data Cleaning & Preparation
 
 - Verified total records and sample transaction data
 - Checked first and last order dates
@@ -57,7 +57,7 @@ The dataset contains e-commerce transaction information including:
 
 ---
 
-# 📊 Business Analysis
+## 📊 Business Analysis
 
 - Measured overall Sales, Profit, Orders, Customers, Products, and Quantity
 - Analyzed performance across categories and sub-categories
@@ -72,17 +72,17 @@ The dataset contains e-commerce transaction information including:
 
 ---
 
-# 📈 Dashboard Development (Power BI)
+## 📈 Dashboard Development (Power BI)
 
 Developed an interactive Power BI dashboard covering:
 
-# Executive Overview
-# Product & Customer Analysis
-# Regional & Sales Analysis
+- **Executive Overview**
+- **Product & Customer Analysis**
+- **Regional & Sales Analysis**
 
-# Dashboard Analysis Includes:
+**Dashboard Analysis Includes:**
 
-# KPIs
+**KPIs**
 
 - Total Sales
 - Total Profit
@@ -93,7 +93,7 @@ Developed an interactive Power BI dashboard covering:
 - Average Order Value
 - Profit Margin
   
-# Deep-Dive Analysis
+**Deep-Dive Analysis**
 
 - Top Products
 - Top Customers
@@ -107,9 +107,9 @@ Developed an interactive Power BI dashboard covering:
 
 ---
 
-# 📐 SQL Analysis
+## 📐 SQL Analysis
 
-# The project uses SQL for:
+ **The project uses SQL for:**
 
 - Data validation, null-value analysis, duplicate detection, invalid-data checks
 - KPI calculations
@@ -121,7 +121,7 @@ Developed an interactive Power BI dashboard covering:
 
 ---
 
-# 🔑 Key Insights
+## 🔑 Key Insights
 
 - Identified overall sales and profitability performance
 - Identified top-performing products based on sales and profit
@@ -135,7 +135,7 @@ Developed an interactive Power BI dashboard covering:
 
 ---
 
-# 💡 Business Recommendations
+## 💡 Business Recommendations
 
 - Focus on high-performing products and categories
 - Strengthen engagement with high-value customers
@@ -149,7 +149,7 @@ Developed an interactive Power BI dashboard covering:
 
 # 🎯 Business Impact
 
-# This analysis supports:
+**This analysis supports:**
 
 - Improved sales performance
 - Better customer targeting and retention
@@ -161,11 +161,11 @@ Developed an interactive Power BI dashboard covering:
 
 ---
 
-# 🛠️ Tools & Technologies
+## 🛠️ Tools & Technologies
 
 Power BI · DAX · Power Query · SQL / MySQL · Excel · Data Modeling
 
-# 👩‍💻 My Role – Data Analyst
+## 👩‍💻 My Role – Data Analyst
 
 As a Data Analyst, I worked on this project to transform raw e-commerce transaction data into meaningful business insights. My responsibilities included:
 
@@ -184,7 +184,7 @@ As a Data Analyst, I worked on this project to transform raw e-commerce transact
 
 ---
 
-# 📁 Project Files
+## 📁 Project Files
 
 📂 SQL
    └── ecommerce_sales_analysis.sql
@@ -198,10 +198,14 @@ As a Data Analyst, I worked on this project to transform raw e-commerce transact
 ---
 
 
-# 🙋 Author
+## 🙋 Author
 
-Vaishnavi Mallayolla
+**Vaishnavi Mallayolla**
 
-Skills: Power BI | SQL | Excel | Python | DAX | Data Analysis
+**Skills:**
+
+Power BI | SQL | Excel | Python | DAX | Data Analysis
+
+---
 
 ⭐ If you find this project useful, feel free to explore the repository and give it a star!
