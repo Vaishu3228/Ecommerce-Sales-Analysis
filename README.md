@@ -64,45 +64,26 @@ The dataset contains e-commerce transaction information including:
 
 ## 🔄 Project Workflow
 
-'''
-📁 Raw CSV Dataset
-        ↓
-🗄️ Import Data into MySQL
-        ↓
-📋 Create SQL Table
-        ↓
-🔍 Data Validation
-        ↓
-⚠️ NULL & Duplicate Analysis
-        ↓
-🧹 Data Cleaning
-        ↓
-📊 Exploratory Data Analysis
-        ↓
-📈 Business KPI Analysis
-        ↓
-💰 Sales & Profit Analysis
-        ↓
-👥 Customer Analysis
-        ↓
-📦 Product Analysis
-        ↓
-🌍 Regional Analysis
-        ↓
-💳 Payment & Order Analysis
-        ↓
-🏷️ Discount & Profitability Analysis
-        ↓
-🔢 Advanced SQL
-(CTEs • Window Functions • Ranking)
-        ↓
-👁️ Create SQL View
-        ↓
-📊 Power BI Dashboard
-        ↓
-💡 Business Insights
-'''
-
+```mermaid
+flowchart TD
+    A[📁 Raw CSV Dataset] --> B[🗄️ Import Data into MySQL]
+    B --> C[📋 Create SQL Table]
+    C --> D[🔍 Data Validation]
+    D --> E[⚠️ NULL & Duplicate Analysis]
+    E --> F[🧹 Data Cleaning]
+    F --> G[📊 Exploratory Data Analysis]
+    G --> H[📈 Business KPI Analysis]
+    H --> I[💰 Sales & Profit Analysis]
+    I --> J[👥 Customer Analysis]
+    J --> K[📦 Product Analysis]
+    K --> L[🌍 Regional Analysis]
+    L --> M[💳 Payment & Order Analysis]
+    M --> N[🏷️ Discount & Profitability Analysis]
+    N --> O[🔢 Advanced SQL - CTEs, Window Functions, Ranking]
+    O --> P[👁️ Create SQL View]
+    P --> Q[📊 Power BI Dashboard]
+    Q --> R[💡 Business Insights]
+```
 ---
 
 ## 🧹 Data Cleaning & Validation
