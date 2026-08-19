@@ -64,7 +64,8 @@ The dataset contains e-commerce transaction information including:
 
 ## 🔄 Project Workflow
 
-'''📁 Raw CSV Dataset'''
+'''
+📁 Raw CSV Dataset
         ↓
 🗄️ Import Data into MySQL
         ↓
@@ -99,7 +100,8 @@ The dataset contains e-commerce transaction information including:
         ↓
 📊 Power BI Dashboard
         ↓
-💡 Business Insights'''
+💡 Business Insights
+'''
 
 ---
 
@@ -245,9 +247,16 @@ Developed an interactive Power BI dashboard covering:
 
 - **Executive Overview**
 
-  
+<img width="1403" height="795" alt="Executive Overview" src="https://github.com/user-attachments/assets/eb10c0b6-30db-4920-b7f8-cad9480c66f6" />
+ 
 - **Product & Customer Analysis**
+
+  <img width="1406" height="793" alt="Product and Customer Analysis Dashboard" src="https://github.com/user-attachments/assets/f50ba0bc-a63d-4cb8-9b63-ce2976adf6ff" />
+
 - **Regional & Sales Analysis**
+  
+<img width="1415" height="792" alt="Regional and Sales Analysis Dashboard" src="https://github.com/user-attachments/assets/52ffefdb-ec02-47ae-8815-fe05e2a64def" />
+
 
 **Dashboard Analysis Includes:**
 
