@@ -79,10 +79,9 @@ flowchart TD
     K --> L[🌍 Regional Analysis]
     L --> M[💳 Payment & Order Analysis]
     M --> N[🏷️ Discount & Profitability Analysis]
-    N --> O[🔢 Advanced SQL - CTEs, Window Functions, Ranking]
-    O --> P[👁️ Create SQL View]
-    P --> Q[📊 Power BI Dashboard]
-    Q --> R[💡 Business Insights]
+    N --> O[👁️ Create SQL View]
+    O --> P[📊 Power BI Dashboard]
+    P --> Q[💡 Business Insights]
 ```
 ---
 
