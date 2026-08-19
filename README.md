@@ -218,7 +218,7 @@ COALESCE(Discount, 0)
 - Net Banking
 - Cash on Delivery
 
-  **8. Discount Analysis**
+**8. Discount Analysis**
 
 **Analyzed:**
 
@@ -226,6 +226,28 @@ COALESCE(Discount, 0)
 - Sales by discount level
 - Profit by discount level
 - Impact of discounts on profitability
+
+---
+
+## 📈 Key Business Questions
+
+The analysis answers questions such as:
+
+1.What are the total sales and profit?
+2.Which category generates the highest sales?
+3.Which category is most profitable?
+4.Which products are the top performers?
+5.Who are the highest-value customers?
+6.How many customers are repeat customers?
+7.Which region generates the highest revenue?
+8.Which city has the highest sales?
+9.Which payment method is most commonly used?
+10.What are the return and cancellation rates?
+11.Which category has the highest return rate?
+12.How do discounts affect profitability?
+13.How are sales changing month over month?
+14.How did sales change year over year?
+15.What are the top 3 products within each category?
 
 ---
 
