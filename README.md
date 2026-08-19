@@ -24,22 +24,7 @@ The analysis focuses on transforming raw transactional data into meaningful busi
 - Analyze the relationship between discounts and profitability
 - Identify monthly and yearly sales trends
 - Prepare cleaned SQL data for Power BI visualization
-
-## 📑 Table of Contents
-
-- Dataset Summary
-- Data Cleaning & Preparation
-- Business Analysis
-- Dashboard Development
-- SQL Analysis
-- Key Insights
-- Business Recommendations
-- Business Impact
-- Tools & Technologies
-- My Role
-- Project Files
-- Author
-
+  
 ---
 
 ## 🗂️ Dataset Summary
@@ -79,39 +64,42 @@ The dataset contains e-commerce transaction information including:
 
 ## 🔄 Project Workflow
 
-Raw CSV Dataset
-      ↓
-Data Import into MySQL
-      ↓
-Table Creation
-      ↓
-Data Validation
-      ↓
-NULL & Duplicate Analysis
-      ↓
-Data Cleaning
-      ↓
-Exploratory Data Analysis
-      ↓
-Business KPI Analysis
-      ↓
-Sales & Profit Analysis
-      ↓
-Customer Analysis
-      ↓
-Product Analysis
-      ↓
-Regional Analysis
-      ↓
-Discount & Order Analysis
-      ↓
-Advanced SQL Analysis
-      ↓
-SQL View Creation
-      ↓
-Power BI Dashboard
-      ↓
-Business Insights
+'''📁 Raw CSV Dataset
+        ↓
+🗄️ Import Data into MySQL
+        ↓
+📋 Create SQL Table
+        ↓
+🔍 Data Validation
+        ↓
+⚠️ NULL & Duplicate Analysis
+        ↓
+🧹 Data Cleaning
+        ↓
+📊 Exploratory Data Analysis
+        ↓
+📈 Business KPI Analysis
+        ↓
+💰 Sales & Profit Analysis
+        ↓
+👥 Customer Analysis
+        ↓
+📦 Product Analysis
+        ↓
+🌍 Regional Analysis
+        ↓
+💳 Payment & Order Analysis
+        ↓
+🏷️ Discount & Profitability Analysis
+        ↓
+🔢 Advanced SQL
+(CTEs • Window Functions • Ranking)
+        ↓
+👁️ Create SQL View
+        ↓
+📊 Power BI Dashboard
+        ↓
+💡 Business Insights'''
 
 ---
 
@@ -233,21 +221,21 @@ COALESCE(Discount, 0)
 
 The analysis answers questions such as:
 
-1.What are the total sales and profit?
-2.Which category generates the highest sales?
-3.Which category is most profitable?
-4.Which products are the top performers?
-5.Who are the highest-value customers?
-6.How many customers are repeat customers?
-7.Which region generates the highest revenue?
-8.Which city has the highest sales?
-9.Which payment method is most commonly used?
-10.What are the return and cancellation rates?
-11.Which category has the highest return rate?
-12.How do discounts affect profitability?
-13.How are sales changing month over month?
-14.How did sales change year over year?
-15.What are the top 3 products within each category?
+* 1.What are the total sales and profit?
+* 2.Which category generates the highest sales?
+* 3.Which category is most profitable?
+* 4.Which products are the top performers?
+* 5.Who are the highest-value customers?
+* 6.How many customers are repeat customers?
+* 7.Which region generates the highest revenue?
+* 8.Which city has the highest sales?
+* 9.Which payment method is most commonly used?
+* 10.What are the return and cancellation rates?
+* 11.Which category has the highest return rate?
+* 12.How do discounts affect profitability?
+* 13.How are sales changing month over month?
+* 14.How did sales change year over year?
+* 15.What are the top 3 products within each category?
 
 ---
 
@@ -256,6 +244,8 @@ The analysis answers questions such as:
 Developed an interactive Power BI dashboard covering:
 
 - **Executive Overview**
+
+  
 - **Product & Customer Analysis**
 - **Regional & Sales Analysis**
 
