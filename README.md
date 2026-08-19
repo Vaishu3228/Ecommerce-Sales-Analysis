@@ -4,13 +4,33 @@ Analyzing e-commerce sales, customer behavior, product performance, regional tre
 
 ---
 
+## 📑 Table of Contents
+
+- [Project Overview](#-project-overview)
+- [Project Objectives](#-project-objectives)
+- [Dataset Summary](#️-dataset-summary)
+- [Project Workflow](#-project-workflow)
+- [Data Cleaning & Validation](#-data-cleaning--validation)
+- [SQL Analysis Performed](#-sql-analysis-performed)
+- [Key Business Questions](#-key-business-questions)
+- [Dashboard Development (Power BI)](#-dashboard-development-power-bi)
+- [Key Insights](#-key-insights)
+- [Business Recommendations](#-business-recommendations)
+- [Tools & Technologies](#️-tools--technologies)
+- [Repository Structure](#-repository-structure)
+- [My Role](#-my-role--data-analyst)
+- [Conclusion](#-conclusion)
+- [Author](#-author)
+
+---
+
 ## 📌 Project Overview
 
 This project analyzes an e-commerce sales dataset using MySQL to identify sales trends, customer behavior, product performance, regional performance, profitability, discounts, and order status.
 
 The analysis focuses on transforming raw transactional data into meaningful business insights that can support sales growth, customer retention, profitability, and operational decision-making.
 
---- 
+---
 
 ## 🎯 Project Objectives
 
@@ -24,7 +44,7 @@ The analysis focuses on transforming raw transactional data into meaningful busi
 - Analyze the relationship between discounts and profitability
 - Identify monthly and yearly sales trends
 - Prepare cleaned SQL data for Power BI visualization
-  
+
 ---
 
 ## 🗂️ Dataset Summary
@@ -42,23 +62,25 @@ The dataset contains e-commerce transaction information including:
 
 **Main Columns**
 
-- Order_ID
-- Order_Date	
-- Customer_ID	
-- Customer_Name	
-- Product_ID	
-- Product_Name	
-- Category	
-- Sub_Category	
-- Quantity	
-- Unit_Price	
-- Discount
-- Sales	
-- Profit	
-- Region	
-- City	
-- Payment_Mode	
-- Order_Status	
+| Column          | Description                              |
+|-----------------|-------------------------------------------|
+| Order_ID        | Unique identifier for each order           |
+| Order_Date      | Date the order was placed                  |
+| Customer_ID     | Unique identifier for each customer        |
+| Customer_Name   | Name of the customer                       |
+| Product_ID      | Unique identifier for each product         |
+| Product_Name    | Name of the product                        |
+| Category        | Product category                           |
+| Sub_Category    | Product sub-category                       |
+| Quantity        | Number of units ordered                    |
+| Unit_Price      | Price per unit                             |
+| Discount        | Discount applied to the order              |
+| Sales           | Total sales value                          |
+| Profit          | Profit generated from the order            |
+| Region          | Region where the order was placed          |
+| City            | City where the order was placed            |
+| Payment_Mode    | Method of payment used                     |
+| Order_Status    | Status of the order (Delivered/Returned/Cancelled) |
 
 ---
 
@@ -83,6 +105,7 @@ flowchart TD
     O --> P[📊 Power BI Dashboard]
     P --> Q[💡 Business Insights]
 ```
+
 ---
 
 ## 🧹 Data Cleaning & Validation
@@ -101,15 +124,14 @@ The following data-quality checks were performed:
 - Validated discount ranges
 - Verified sales calculations
 
-Missing values were handled using COALESCE() where appropriate.
+Missing values were handled using `COALESCE()` where appropriate.
 
-Example:
+**Example:**
 
+```sql
 COALESCE(Customer_Name, 'Unknown Customer')
-
-and
-
 COALESCE(Discount, 0)
+```
 
 ---
 
@@ -117,8 +139,7 @@ COALESCE(Discount, 0)
 
 **1. Overall KPI Analysis**
 
-**Calculated:**
-
+Calculated:
 - Total Sales
 - Total Profit
 - Total Orders
@@ -127,61 +148,55 @@ COALESCE(Discount, 0)
 - Total Quantity
 - Average Order Value
 - Profit Margin
-  
+
 **2. Sales Analysis**
 
-**Analyzed:**
-
+Analyzed:
 - Sales by category
 - Sales by sub-category
 - Monthly sales
 - Yearly sales
 - Sales contribution by region
-  
+
 **3. Product Analysis**
 
-**Identified:**
-
+Identified:
 - Top 10 products
 - Bottom 10 products
 - Top products within each category
 - Product sales ranking
 - Product profitability
-  
+
 **4. Customer Analysis**
 
-**Analyzed:**
-
+Analyzed:
 - Top customers by sales
 - Customer order frequency
 - Repeat customers
 - Customer segmentation
 - Customer profitability
-  
+
 **5. Regional Analysis**
 
-**Analyzed:**
-
+Analyzed:
 - Sales by region
 - Profit by region
 - Sales by city
 - Regional sales contribution
-  
+
 **6. Order Analysis**
 
-**Analyzed:**
-
+Analyzed:
 - Delivered orders
 - Returned orders
 - Cancelled orders
 - Cancellation rate
 - Return rate
 - Category-wise return rate
-  
+
 **7. Payment Analysis**
 
-**Compared:**
-
+Compared:
 - UPI
 - Credit Card
 - Debit Card
@@ -190,8 +205,7 @@ COALESCE(Discount, 0)
 
 **8. Discount Analysis**
 
-**Analyzed:**
-
+Analyzed:
 - Average discount
 - Sales by discount level
 - Profit by discount level
@@ -203,21 +217,21 @@ COALESCE(Discount, 0)
 
 The analysis answers questions such as:
 
-* 1.What are the total sales and profit?
-* 2.Which category generates the highest sales?
-* 3.Which category is most profitable?
-* 4.Which products are the top performers?
-* 5.Who are the highest-value customers?
-* 6.How many customers are repeat customers?
-* 7.Which region generates the highest revenue?
-* 8.Which city has the highest sales?
-* 9.Which payment method is most commonly used?
-* 10.What are the return and cancellation rates?
-* 11.Which category has the highest return rate?
-* 12.How do discounts affect profitability?
-* 13.How are sales changing month over month?
-* 14.How did sales change year over year?
-* 15.What are the top 3 products within each category?
+1. What are the total sales and profit?
+2. Which category generates the highest sales?
+3. Which category is most profitable?
+4. Which products are the top performers?
+5. Who are the highest-value customers?
+6. How many customers are repeat customers?
+7. Which region generates the highest revenue?
+8. Which city has the highest sales?
+9. Which payment method is most commonly used?
+10. What are the return and cancellation rates?
+11. Which category has the highest return rate?
+12. How do discounts affect profitability?
+13. How are sales changing month over month?
+14. How did sales change year over year?
+15. What are the top 3 products within each category?
 
 ---
 
@@ -225,23 +239,21 @@ The analysis answers questions such as:
 
 Developed an interactive Power BI dashboard covering:
 
-- **Executive Overview**
+**Executive Overview**
 
 <img width="1403" height="795" alt="Executive Overview" src="https://github.com/user-attachments/assets/eb10c0b6-30db-4920-b7f8-cad9480c66f6" />
- 
-- **Product & Customer Analysis**
 
-  <img width="1406" height="793" alt="Product and Customer Analysis Dashboard" src="https://github.com/user-attachments/assets/f50ba0bc-a63d-4cb8-9b63-ce2976adf6ff" />
+**Product & Customer Analysis**
 
-- **Regional & Sales Analysis**
-  
+<img width="1406" height="793" alt="Product and Customer Analysis Dashboard" src="https://github.com/user-attachments/assets/f50ba0bc-a63d-4cb8-9b63-ce2976adf6ff" />
+
+**Regional & Sales Analysis**
+
 <img width="1415" height="792" alt="Regional and Sales Analysis Dashboard" src="https://github.com/user-attachments/assets/52ffefdb-ec02-47ae-8815-fe05e2a64def" />
-
 
 **Dashboard Analysis Includes:**
 
 **KPIs**
-
 - Total Sales
 - Total Profit
 - Total Orders
@@ -250,9 +262,8 @@ Developed an interactive Power BI dashboard covering:
 - Total Quantity
 - Average Order Value
 - Profit Margin
-  
-**Deep-Dive Analysis**
 
+**Deep-Dive Analysis**
 - Top Products
 - Top Customers
 - Category Performance
@@ -289,12 +300,23 @@ Developed an interactive Power BI dashboard covering:
 - Monitor monthly and quarterly sales trends for planning
 - Promote products and categories with strong profit contribution
 
-
 ---
 
 ## 🛠️ Tools & Technologies
 
 Power BI · DAX · Power Query · SQL / MySQL · Excel · Data Modeling
+
+---
+
+## 📂 Repository Structure
+
+```
+├── data/                  # Raw CSV dataset
+├── sql/                   # SQL scripts (cleaning, validation, analysis, views)
+├── dashboard/              # Power BI .pbix file
+├── images/                 # Dashboard screenshots
+└── README.md
+```
 
 ---
 
@@ -324,6 +346,8 @@ This project demonstrates how SQL can be used to transform raw e-commerce transa
 The project covers the complete analytics workflow, from data validation and cleaning to advanced SQL analysis and preparation of data for Power BI visualization.
 
 It demonstrates practical skills in SQL, data cleaning, exploratory analysis, business KPI development, customer analysis, product analysis, and data visualization.
+
+---
 
 ## 🙋 Author
 
